@@ -84,19 +84,35 @@
 				<p> <b>Russian</b> Beginner</p>
 		</div>
 	</div>
-	<div class="firm" style="background: grey;">
+	<div class="firm">
 		<h3 style="position: relative; bottom: 40px; font-size: 40px; color: #fff;">Contact</h3>
-		<p><input type="Email" name="Email" placeholder="Email" style="width: 700px;"></p>
+		<form>
+			<div class="fire">
+			<p><input type="Email" name="Email" placeholder="Email" style="width: 700px;"></p>
 		<p><input type="text" name="subject" placeholder="subject" style="width: 700px;"></p>
-		<p><input type="text" name="message" placeholder="your message" style="width: 700px;"></p>
+		<p><textarea name="message" placeholder="your message"></textarea></p>
+		<a href="#"><button>Send A Message</button></a> 
+		</div>
 	</div>
+</form>
 	<style type="text/css">
-		.firm p{
-		   display: in-flex;
-			background-color: #fff;
-			width: 700px;
-			height: 70px;
+		.fire p{
+			position: relative;
+	        top: 30px;
+			/*background-color: #fff;*/
+			/*width: 700px;*/
+			/*height: 200px;*/
 			font-size: 40px;
+		}
+		button{
+			padding: 0 5px;
+			border: 2px solid #fff;
+			border-radius: 25px;
+			background: linear-gradient(180deg, #ff0060 0, #ff6975);
+			color: #eee;
+			margin-top: 30px;
+			line-height: 30px;
+			cursor: pointer;
 		}
 	</style>
 </body>

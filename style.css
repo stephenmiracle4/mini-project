@@ -117,8 +117,38 @@ img{
     margin: 100px;
     width: 700px;
 }
-border-radius: 0 0 0 260px;
-.firm{
-	display: flex;
-	width: 500px;
+/*border-radius: 0 0 0 260px;*/
+input{
+	 width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+    background-color: #f8f8f8;
+    border: 2px solid #eee;
+ /* background-image: url('solid.svg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;*/
+}
+textarea{
+	 width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #eee;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  text-transform: uppercase;
+}
+.fire{
+	background-color: #fff;
+	width: 700px;
+	height: 350px;
+	font-size: 40px;
+	padding: 0 5px;
+}
+button hover{
+	background: whitesmoke;
+	color: black;
 }
